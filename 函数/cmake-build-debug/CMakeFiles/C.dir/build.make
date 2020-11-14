@@ -77,27 +77,27 @@ include CMakeFiles/C.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/C.dir/flags.make
 
-CMakeFiles/C.dir/i.c.o: CMakeFiles/C.dir/flags.make
-CMakeFiles/C.dir/i.c.o: ../i.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deepin/Documents/C-Learning/函数/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/C.dir/i.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/C.dir/i.c.o   -c /home/deepin/Documents/C-Learning/函数/i.c
+CMakeFiles/C.dir/main.c.o: CMakeFiles/C.dir/flags.make
+CMakeFiles/C.dir/main.c.o: ../main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deepin/Documents/C-Learning/函数/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/C.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/C.dir/main.c.o   -c /home/deepin/Documents/C-Learning/函数/main.c
 
-CMakeFiles/C.dir/i.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C.dir/i.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/deepin/Documents/C-Learning/函数/i.c > CMakeFiles/C.dir/i.c.i
+CMakeFiles/C.dir/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C.dir/main.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/deepin/Documents/C-Learning/函数/main.c > CMakeFiles/C.dir/main.c.i
 
-CMakeFiles/C.dir/i.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C.dir/i.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/deepin/Documents/C-Learning/函数/i.c -o CMakeFiles/C.dir/i.c.s
+CMakeFiles/C.dir/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C.dir/main.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/deepin/Documents/C-Learning/函数/main.c -o CMakeFiles/C.dir/main.c.s
 
 # Object files for target C
 C_OBJECTS = \
-"CMakeFiles/C.dir/i.c.o"
+"CMakeFiles/C.dir/main.c.o"
 
 # External object files for target C
 C_EXTERNAL_OBJECTS =
 
-C : CMakeFiles/C.dir/i.c.o
+C : CMakeFiles/C.dir/main.c.o
 C : CMakeFiles/C.dir/build.make
 C : CMakeFiles/C.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/deepin/Documents/C-Learning/函数/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable C"

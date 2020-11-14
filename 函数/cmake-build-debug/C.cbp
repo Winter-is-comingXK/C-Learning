@@ -78,7 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/deepin/Documents/C-Learning/函数/i.c">
+		<Unit filename="/home/deepin/Documents/C-Learning/函数/main.c">
 			<Option target="C"/>
 		</Unit>
 		<Unit filename="/home/deepin/Documents/C-Learning/函数/CMakeLists.txt">

@@ -26,10 +26,22 @@
   <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Debug-覆盖率" CONFIG_NAME="Debug" GENERATION_OPTIONS="-DCMAKE_CXX_FLAGS=--coverage -DCMAKE_C_FLAGS=--coverage" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09c39837-e886-4da6-afd1-ae9f7e369f3f" name="默认的" comment="2020/11/10 22:05" />
+    <list default="true" id="09c39837-e886-4da6-afd1-ae9f7e369f3f" name="默认的" comment="2020/11/10 22:05">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/C.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/C.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,22 +67,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="settings.editor.selected.configurable" value="dynamic.analysis.tools.valgrind" />
   </component>
-  <component name="RunManager" selected="CMake 应用程序.main">
+  <component name="RunManager">
     <configuration name="C" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="C" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="C">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="CMake 应用程序.C" />
-      <item itemvalue="CMake 应用程序.main" />
-    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -86,6 +95,15 @@
       <workItem from="1605014530474" duration="10000" />
       <workItem from="1605016815117" duration="133000" />
       <workItem from="1605016967514" duration="216000" />
+      <workItem from="1605017316359" duration="880000" />
+      <workItem from="1605018217645" duration="144000" />
+      <workItem from="1605273531870" duration="927000" />
+      <workItem from="1605276897980" duration="323000" />
+      <workItem from="1605279709662" duration="120000" />
+      <workItem from="1605281684543" duration="182000" />
+      <workItem from="1605282312557" duration="621000" />
+      <workItem from="1605283037188" duration="304000" />
+      <workItem from="1605344928535" duration="10000" />
     </task>
     <task id="LOCAL-00001" summary="2020/11/10 22:05">
       <created>1605017160580</created>
@@ -94,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605017160581</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2020/11/10 22:05">
+      <created>1605017386203</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605017386203</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,10 +140,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="2020/11/10 22:05" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="467" y="202" width="1079" height="797" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604986133109">
+    <state x="467" y="202" width="1079" height="797" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605274393748">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="467" y="202" width="1079" height="797" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1604986133109" />
+    <state x="467" y="202" width="1079" height="797" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1605274393748" />
     <state x="897" y="212" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605017067742">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -127,17 +152,71 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="507" y="131" key="#新文件扩展名/0.0.1920.1080@0.0.1920.1080" timestamp="1605017116549" />
-    <state x="732" y="301" key="FileChooserDialogImpl" timestamp="1604986703644">
+    <state x="732" y="301" key="FileChooserDialogImpl" timestamp="1605344936790">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="732" y="301" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1604986703644" />
-    <state x="460" y="213" key="Vcs.Push.Dialog.v2" timestamp="1605017169234">
+    <state x="732" y="301" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1605344936790" />
+    <state width="1033" height="184" key="GridCell.Tab.0.bottom" timestamp="1605283340141">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="460" y="213" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1605017169234" />
+    <state width="1033" height="184" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1605283340141" />
+    <state width="1033" height="184" key="GridCell.Tab.0.center" timestamp="1605283340140">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1033" height="184" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1605283340140" />
+    <state width="1033" height="184" key="GridCell.Tab.0.left" timestamp="1605283340140">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1033" height="184" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1605283340140" />
+    <state width="1033" height="184" key="GridCell.Tab.0.right" timestamp="1605283340140">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1033" height="184" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1605283340140" />
+    <state width="1043" height="232" key="GridCell.Tab.1.bottom" timestamp="1605274458814">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1043" height="232" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1605274458814" />
+    <state width="1043" height="232" key="GridCell.Tab.1.center" timestamp="1605274458813">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1043" height="232" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1605274458813" />
+    <state width="1043" height="232" key="GridCell.Tab.1.left" timestamp="1605274458813">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1043" height="232" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1605274458813" />
+    <state width="1043" height="232" key="GridCell.Tab.1.right" timestamp="1605274458814">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1043" height="232" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1605274458814" />
+    <state x="329" y="46" key="SettingsEditor" timestamp="1605281719003">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="329" y="46" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1605281719003" />
+    <state x="460" y="213" width="1000" height="654" key="Vcs.Push.Dialog.v2" timestamp="1605017394556">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="460" y="213" width="1000" height="654" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1605017394556" />
+    <state x="494" y="222" key="run.anything.popup" timestamp="1605283309529">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="494" y="222" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1605283309529" />
     <state x="1080" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1604985603061">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1080" y="45" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1604985603061" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.c</url>
+          <line>3</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="../../../Documents/C-Learning/函数/cmake-build-debug-" NAME="C Coverage Results" MODIFIED="1605274452119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="gcov/llvm" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

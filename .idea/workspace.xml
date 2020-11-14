@@ -26,11 +26,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61ccf9df-be7b-4a13-a85d-06e068d2f5e8" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/函数/ceshi.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/函数/数制转换.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/tasks.json" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/C-Learning.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/自学/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/自学/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/函数/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/函数/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/函数/cmake-build-debug/C.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/函数/cmake-build-debug/C.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/函数/cmake-build-debug/CMakeFiles/C.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/函数/cmake-build-debug/CMakeFiles/C.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/函数/cmake-build-debug/CMakeFiles/C.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/函数/cmake-build-debug/CMakeFiles/C.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/函数/cmake-build-debug/CMakeFiles/C.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/函数/cmake-build-debug/CMakeFiles/C.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/函数/cmake-build-debug/CMakeFiles/C.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/函数/cmake-build-debug/CMakeFiles/C.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/函数/cmake-build-debug/CMakeFiles/C.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/函数/cmake-build-debug/CMakeFiles/C.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/函数/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/函数/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/函数/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/函数/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/函数/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/函数/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,9 +74,10 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/自学/CMakeLists.txt" />
     <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RunManager">
@@ -91,6 +104,7 @@
       <workItem from="1604979163544" duration="151000" />
       <workItem from="1604979315487" duration="729000" />
       <workItem from="1604986706723" duration="350000" />
+      <workItem from="1605344940424" duration="277000" />
     </task>
     <servers />
   </component>
@@ -113,14 +127,14 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="529" y="0" width="1079" height="1080" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604986963719">
+    <state x="529" y="0" width="1079" height="1080" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605345198917">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="529" y="0" width="1079" height="1080" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1604986963719" />
-    <state x="746" y="244" key="FileChooserDialogImpl" timestamp="1604987046304">
+    <state x="529" y="0" width="1079" height="1080" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1605345198917" />
+    <state x="746" y="244" key="FileChooserDialogImpl" timestamp="1605345210822">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="746" y="244" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1604987046304" />
+    <state x="746" y="244" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1605345210822" />
     <state width="800" height="255" key="ImportCMakeProjectWizard.bottomPanel" timestamp="1604987054870">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
