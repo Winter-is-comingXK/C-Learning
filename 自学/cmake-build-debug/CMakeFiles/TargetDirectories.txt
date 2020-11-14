@@ -1,0 +1,3 @@
+/home/deepin/Documents/C-Learning/自学/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/deepin/Documents/C-Learning/自学/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/deepin/Documents/C-Learning/自学/cmake-build-debug/CMakeFiles/C.dir
