@@ -25,24 +25,8 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61ccf9df-be7b-4a13-a85d-06e068d2f5e8" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/C-Learning.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/自学/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/自学/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="61ccf9df-be7b-4a13-a85d-06e068d2f5e8" name="默认的" comment="hhh">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/函数/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/函数/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/函数/cmake-build-debug/C.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/函数/cmake-build-debug/C.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/函数/cmake-build-debug/CMakeFiles/C.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/函数/cmake-build-debug/CMakeFiles/C.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/函数/cmake-build-debug/CMakeFiles/C.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/函数/cmake-build-debug/CMakeFiles/C.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/函数/cmake-build-debug/CMakeFiles/C.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/函数/cmake-build-debug/CMakeFiles/C.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/函数/cmake-build-debug/CMakeFiles/C.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/函数/cmake-build-debug/CMakeFiles/C.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/函数/cmake-build-debug/CMakeFiles/C.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/函数/cmake-build-debug/CMakeFiles/C.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/函数/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/函数/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/函数/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/函数/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/函数/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/函数/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +65,17 @@
     <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -105,7 +99,17 @@
       <workItem from="1604979315487" duration="729000" />
       <workItem from="1604986706723" duration="350000" />
       <workItem from="1605344940424" duration="277000" />
+      <workItem from="1605345226916" duration="159000" />
+      <workItem from="1605345388033" duration="160000" />
     </task>
+    <task id="LOCAL-00001" summary="hhh">
+      <created>1605345315544</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605345315544</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,24 +129,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="hhh" />
+    <option name="LAST_COMMIT_MESSAGE" value="hhh" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="529" y="0" width="1079" height="1080" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605345198917">
+    <state x="529" y="0" width="1079" height="1080" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605345537670">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="529" y="0" width="1079" height="1080" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1605345198917" />
-    <state x="746" y="244" key="FileChooserDialogImpl" timestamp="1605345210822">
+    <state x="529" y="0" width="1079" height="1080" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1605345537670" />
+    <state x="746" y="244" key="FileChooserDialogImpl" timestamp="1605345528116">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="746" y="244" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1605345210822" />
-    <state width="800" height="255" key="ImportCMakeProjectWizard.bottomPanel" timestamp="1604987054870">
+    <state x="746" y="244" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1605345528116" />
+    <state width="800" height="255" key="ImportCMakeProjectWizard.bottomPanel" timestamp="1605345384865">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="800" height="255" key="ImportCMakeProjectWizard.bottomPanel/0.0.1920.1080@0.0.1920.1080" timestamp="1604987054870" />
-    <state width="800" height="595" key="ImportCMakeProjectWizard.topPanel" timestamp="1604987054869">
+    <state width="800" height="255" key="ImportCMakeProjectWizard.bottomPanel/0.0.1920.1080@0.0.1920.1080" timestamp="1605345384865" />
+    <state width="800" height="595" key="ImportCMakeProjectWizard.topPanel" timestamp="1605345384864">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="800" height="595" key="ImportCMakeProjectWizard.topPanel/0.0.1920.1080@0.0.1920.1080" timestamp="1604987054869" />
+    <state width="800" height="595" key="ImportCMakeProjectWizard.topPanel/0.0.1920.1080@0.0.1920.1080" timestamp="1605345384864" />
     <state x="434" y="90" key="SettingsEditor" timestamp="1604986884669">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
