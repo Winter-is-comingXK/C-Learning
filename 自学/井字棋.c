@@ -1,3 +1,7 @@
+//
+// Created by deepin on 2020/11/15.
+//
+
 #include "stdio.h"
 
 int draw(int arr[][4]){
@@ -12,5 +16,5 @@ int main() {
         scanf("%d%d", &x, &y);
         arr[x][y] = 1;
     }
-  draw(arr);
+    draw(arr);
 }
