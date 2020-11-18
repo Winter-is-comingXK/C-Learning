@@ -25,27 +25,7 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61ccf9df-be7b-4a13-a85d-06e068d2f5e8" name="默认的" comment="hhh">
-      <change afterPath="$PROJECT_DIR$/数组/A+B.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数组/Fibonacci数列前20项.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数组/FindingMissingCards.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数组/Matrix.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数组/Official.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数组/Reversing.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数组/三个数排序输出.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数组/冒泡排序.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数组/排序问题1.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数组/排序问题2.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数组/数组元素逆置.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/自学/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/自学/大写转换为小写.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/自学/画金字塔.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/自学/cmake-build-debug/C" beforeDir="false" afterPath="$PROJECT_DIR$/自学/cmake-build-debug/C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/自学/cmake-build-debug/CMakeFiles/C.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/自学/cmake-build-debug/CMakeFiles/C.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/自学/cmake-build-debug/CMakeFiles/C.dir/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/自学/cmake-build-debug/CMakeFiles/C.dir/main.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/自学/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/自学/main.c" afterDir="false" />
-    </list>
+    <list default="true" id="61ccf9df-be7b-4a13-a85d-06e068d2f5e8" name="默认的" comment="hhh" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,6 +95,7 @@
       <workItem from="1605345226916" duration="159000" />
       <workItem from="1605345388033" duration="160000" />
       <workItem from="1605702840606" duration="625000" />
+      <workItem from="1605712708276" duration="62000" />
     </task>
     <task id="LOCAL-00001" summary="hhh">
       <created>1605345315544</created>

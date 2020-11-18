@@ -1,0 +1,1 @@
+/usr/bin/cc --coverage -g   CMakeFiles/C.dir/main.c.o  -o C  -lm 

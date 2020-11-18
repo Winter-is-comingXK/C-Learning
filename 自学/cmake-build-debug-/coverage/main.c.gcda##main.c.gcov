@@ -1,0 +1,46 @@
+        -:    0:Source:/home/deepin/Documents/C-Learning/自学/main.c
+        -:    0:Graph:/home/deepin/Documents/C-Learning/自学/cmake-build-debug-/CMakeFiles/C.dir/main.c.gcno
+        -:    0:Data:/home/deepin/Documents/C-Learning/自学/cmake-build-debug-/CMakeFiles/C.dir/main.c.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:#include <stdio.h>
+        -:    2:
+       58:    3:void prchar(int line,int allline){
+       58:    4:    int linegs=line*2-1;//每一行的字符个数
+       58:    5:    int maxlinegs=allline*2-1;//最后一行的字符个数
+       58:    6:    int target=(maxlinegs-linegs)/2;//每一行空格的个数的一半
+     1711:    7:    for (int i = 1; i <= target; ++i) {printf("\040");}//空格
+       58:    7-block  0
+     1653:    7-block  1
+     1711:    7-block  2
+       58:    8:    int cell=65;
+     1711:    9:    for (int i = target+1; i < (maxlinegs+1)/2; ++i,cell++) {
+       58:    9-block  0
+     1711:    9-block  1
+     1653:   10:        printf("%c", cell);
+     1653:   10-block  0
+        -:   11:    }
+       58:   12:    printf("%c", cell);
+       58:   12-block  0
+     1711:   13:    for (int i = (maxlinegs+1)/2+1; i <= maxlinegs-target; ++i) {
+     1711:   13-block  0
+     1653:   14:        cell--;
+     1653:   15:        printf("%c", cell);
+     1653:   15-block  0
+        -:   16:    }
+     1654:   17:    for (int i = 1; i < target; ++i) {printf("\040");}//空格
+       58:   17-block  0
+     1596:   17-block  1
+     1654:   17-block  2
+       58:   18:}
+        -:   19:
+        1:   20:int main() {
+        1:   21:    int allline=58;//总行数58之内正常
+       59:   22:    for (int i = 1; i <= allline; ++i) {
+        1:   22-block  0
+       59:   22-block  1
+       58:   23:        prchar(i,allline);
+       58:   23-block  0
+       58:   24:        printf("\n");
+        -:   25:    }
+        -:   26:}
