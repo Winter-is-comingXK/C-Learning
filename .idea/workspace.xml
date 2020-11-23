@@ -25,7 +25,10 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61ccf9df-be7b-4a13-a85d-06e068d2f5e8" name="默认的" comment="hhh" />
+    <list default="true" id="61ccf9df-be7b-4a13-a85d-06e068d2f5e8" name="默认的" comment="hhh">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/自学/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/自学/main.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,6 +99,9 @@
       <workItem from="1605345388033" duration="160000" />
       <workItem from="1605702840606" duration="625000" />
       <workItem from="1605712708276" duration="62000" />
+      <workItem from="1605712899926" duration="172000" />
+      <workItem from="1605974487101" duration="105000" />
+      <workItem from="1605974715552" duration="278000" />
     </task>
     <task id="LOCAL-00001" summary="hhh">
       <created>1605345315544</created>
@@ -104,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605345315544</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="hhh">
+      <created>1605712969632</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605712969632</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,10 +141,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="hhh" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="529" y="0" width="1079" height="1080" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605345537670">
+    <state x="529" y="0" width="1079" height="1080" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605974988581">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="529" y="0" width="1079" height="1080" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1605345537670" />
+    <state x="529" y="0" width="1079" height="1080" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1605974988581" />
     <state x="746" y="244" key="FileChooserDialogImpl" timestamp="1605345528116">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -148,5 +161,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="434" y="90" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1604986884669" />
+    <state x="486" y="184" width="1000" height="654" key="Vcs.Push.Dialog.v2" timestamp="1605712977430">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="486" y="184" width="1000" height="654" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1605712977430" />
   </component>
 </project>

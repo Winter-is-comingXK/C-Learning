@@ -1,21 +1,16 @@
 #include <stdio.h>
 
-void pr(int m, int n) {
-    int kongge = m - 2;
-    printf("X");
-    for (int line = 1; line <= (m + 1) / 2; line++) {
-        for (; lin <=; ++i) {
-            printf("\040");
-        }
-    }
-    pr
+void swap(int *a,int *b){
+    int t = *a;
+    printf("%d\n",*a);
+    *a = *b;
+    *b = t;
 }
 
-
 int main() {
-
-    int m, n;
-    scanf("%d%d", &m, &n);
-    pr(m, n);
-
+    int a=1,b=2;
+    printf("%p\n",&a);
+    printf("%d %d\n",a,b);
+    swap(&a,&b);
+    printf("%d %d",a,b);
 }
